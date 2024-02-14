@@ -144,7 +144,7 @@ async def back_to_menu(update: Update, context: ContextTypes):
 def main():
     """Start the bot."""
     # Create the Application instance
-    app = Application.builder().token("6809224446:AAF2gE7hRCXNf07qnMUFbaP5lq2Dwkvkebs").build()
+    app = Application.builder().token("YOUR BOT TOKEN").build()
 
     # Get the dispatcher to register handlers
     conv_handler = ConversationHandler(
